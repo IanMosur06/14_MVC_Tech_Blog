@@ -15,9 +15,9 @@ const newFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/homepage');
     } else {
-      alert('Failed to create project');
+      alert('Failed to create comment');
     }
   }
 };
@@ -31,9 +31,9 @@ const delButtonHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/homepage');
     } else {
-      alert('Failed to delete project');
+      alert('Failed to delete comment');
     }
   }
 };

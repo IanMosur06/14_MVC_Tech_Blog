@@ -1,5 +1,23 @@
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+
+html {
+  background-color: mediumaquamarine;
+}
+
+header {
+  background-color: black;
+}
+
+.lContainer {
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
 }
 
 .no-button {
